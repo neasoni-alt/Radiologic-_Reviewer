@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RT202 Principles of Imaging Reviewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sticky Top Navigation / Control Bar -->
+  <header class="top-bar">
+    <div class="header-container">
+      <div class="title-row">
+        <div class="brand">
+          <span class="brand-icon">☢️</span>
+          <h1>RT202 Principles of Imaging Reviewer (Lessons 6–8)</h1>
+        </div>
+        <div class="score-pill">
+          Score: <strong id="score-val">0</strong> / <strong id="answered-val">0</strong>
+          <span class="divider">|</span>
+          Showing <strong id="showing-val">0</strong> questions
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search question number, keyword, or concept..." 
+        />
+        
+        <select id="domain-select" class="domain-select">
+          <option value="all">All Domains (Lessons 6, 7 & 8)</option>
+          <option value="Lesson 6: Radiographic Contrast">Lesson 6: Radiographic Contrast</option>
+          <option value="Lesson 7: Radiographic Definition & Distortion">Lesson 7: Radiographic Definition & Distortion</option>
+          <option value="Lesson 8: Scatter Radiation, Filtration, and Patient Exposure">Lesson 8: Scatter Radiation, Filtration & Patient Exposure</option>
+        </select>
+
+        <label class="hover-toggle">
+          <input type="checkbox" id="hover-peek-checkbox" checked />
+          <span>Hover Pointer to Peek</span>
+        </label>
+
+        <button id="reveal-all-btn" class="ctrl-btn">Reveal All</button>
+        <button id="reset-btn" class="ctrl-btn">Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Quiz Content -->
+  <main id="quiz-container" class="quiz-container"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
