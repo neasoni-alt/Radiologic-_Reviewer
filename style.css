@@ -384,3 +384,66 @@ body.hover-peek-enabled .peek-box:hover .peek-content {
   border-radius: 12px;
   color: var(--text-muted);
 }
+
+/* Mobile & Small Screen Optimizations */
+@media (max-width: 640px) {
+  .top-bar {
+    padding: 12px 14px;
+  }
+
+  .header-container {
+    gap: 10px;
+  }
+
+  .brand h1 {
+    font-size: 1.05rem;
+  }
+
+  .score-pill {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+  }
+
+  .controls-row {
+    gap: 8px;
+  }
+
+  .search-input,
+  .domain-select {
+    flex: 1 1 100%;
+    font-size: 16px; /* Prevents iOS Safari from auto-zooming when tapping inputs */
+    padding: 8px 12px;
+  }
+
+  /* Hide the mouse-only hover checkbox on touchscreens to save header space */
+  .hover-toggle {
+    display: none;
+  }
+
+  .ctrl-btn {
+    flex: 1;
+    text-align: center;
+    padding: 9px 10px;
+  }
+
+  .quiz-container {
+    margin-top: 18px;
+    padding: 0 12px;
+  }
+
+  .question-card {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .question-text {
+    font-size: 0.96rem;
+  }
+
+  .option-btn {
+    padding: 11px 12px;
+    font-size: 0.9rem;
+  }
+}
