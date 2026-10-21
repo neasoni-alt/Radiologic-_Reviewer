@@ -14,7 +14,7 @@ const questionsData = [
     ],
     answer: 1,
     explanation:
-      "Radiographic contrast is defined as the degree of difference between adjacent densities and is one of the two photographic properties comprising visibility of detail.",
+      "Radiographic contrast is defined as the degree of difference between adjacent densities and is one of the two photographic properties comprising visibility of detail[cite: 1].",
   },
   {
     id: "6.1.2",
@@ -29,7 +29,7 @@ const questionsData = [
     ],
     answer: 0,
     explanation:
-      "Visibility of detail refers to the fact that the radiographic image is visible to the human eye only because sufficient contrast and density exist to permit structural details to be perceived.",
+      "Visibility of detail refers to the fact that the radiographic image is visible to the human eye only because sufficient contrast and density exist to permit structural details to be perceived[cite: 1].",
   },
   {
     id: "6.1.3",
@@ -44,7 +44,7 @@ const questionsData = [
     ],
     answer: 1,
     explanation:
-      "A high-contrast film emulsion contains smaller silver halide grains with a relatively uniform size.",
+      "A high-contrast emulsion contains smaller silver halide grains with relatively uniform size[cite: 1].",
   },
   {
     id: "6.1.4",
@@ -59,7 +59,7 @@ const questionsData = [
     ],
     answer: 1,
     explanation:
-      "Contrast is always lower for a film exposed to x-rays only (direct exposure) than when exposed with an intensifying screen (IS).",
+      "Contrast is always lower for a film exposed to x-rays only than with intensifying screens, though changing speed has negligible effect on contrast[cite: 1].",
   },
   {
     id: "6.1.5",
@@ -68,19 +68,19 @@ const questionsData = [
       "What happens to film contrast when developer time, developer temperature, or replenishment rate is excessively increased?",
     options: [
       "Chemical fog decreases and radiographic contrast increases",
-      "Chemical fog increases on the film, which adversely reduces contrast",
+      "Chemical fog increases on the film, affecting base fog and reducing contrast",
       "Base fog is eliminated, producing a short-scale contrast image",
       "Film contrast remains completely unaffected by processing conditions",
     ],
     answer: 1,
     explanation:
-      "Increasing developer time, temperature, or replenishment rate increases chemical fog on the film. When any processing factor changes base fog, contrast is decreased.",
+      "Increasing film developer time, temperature, or replenishment rate will increase the chemical fog on the film. When any processing factor causes a change in base fog, contrast is affected[cite: 1].",
   },
   {
     id: "6.1.6",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "Which type of contrast is defined as the range of differences in the intensity of the x-ray beam AFTER it has been attenuated by the patient?",
+      "Which type of contrast is defined as the range of differences in the intensity of the x-ray beam AFTER it has been attenuated by the subject?",
     options: [
       "Film (Image Receptor) Contrast",
       "Subject Contrast",
@@ -89,7 +89,7 @@ const questionsData = [
     ],
     answer: 1,
     explanation:
-      "Subject contrast is the range of differences in the intensity of the x-ray beam after it has been attenuated by the subject, depending on kVp and the amount/type of irradiated material.",
+      "Subject contrast is the range of differences in the intensity of the x-ray beam after it has been attenuated by the subject, resulting from tissue composition and kilovoltage[cite: 1].",
   },
   {
     id: "6.1.7",
@@ -97,13 +97,13 @@ const questionsData = [
     question: "Which three components directly make up Subject Contrast?",
     options: [
       "Film type, Direct exposure, and Intensifying screen",
-      "Kilovoltage, Tissue composition, and Contrast medium",
+      "Kilovoltage, Tissue composition, and Contrast Medium",
       "Focal spot size, SID, and OID",
       "Developer time, Fixer temperature, and Wash rate",
     ],
     answer: 1,
     explanation:
-      "Subject contrast is determined by (1) Kilovoltage, (2) Tissue composition, and (3) Contrast Medium.",
+      "Subject contrast is a result of the absorption characteristics of the anatomic tissue radiographed and the level of kilovoltage used, with components being Kilovoltage, Tissue composition, and Contrast Medium[cite: 1].",
   },
   {
     id: "6.1.8",
@@ -112,13 +112,13 @@ const questionsData = [
       "As long as kVp is adequate to penetrate the anatomic part, how does a LOW kVp affect subject contrast?",
     options: [
       "Low kVp produces low subject contrast (long scale)",
-      "Low kVp produces high subject contrast (short scale)",
+      "Low kVp produces high subject contrast because low-energy photons are absorbed by thicker parts while more penetrate thin parts",
       "Low kVp causes uniform penetration across thick and thin parts",
       "Low kVp increases Compton scatter and reduces contrast",
     ],
     answer: 1,
     explanation:
-      "Low kVp produces higher subject contrast because most low-energy photons are absorbed by thicker parts while more penetrate thinner parts, creating greater density differences.",
+      "Low kVp produces higher subject contrast because most low-energy photons are absorbed by the thicker parts while more penetrate the thin part[cite: 1].",
   },
   {
     id: "6.1.9",
@@ -126,14 +126,14 @@ const questionsData = [
     question:
       "Why does increasing kVp cause a decrease in radiographic contrast?",
     options: [
-      "Higher kVp causes more uniform penetration and increases the percentage of Compton scatter interactions",
+      "Higher kVp causes more uniform penetration and increases the percentage of Compton interactions, increasing scatter reaching the film",
       "Higher kVp eliminates Compton scattering and increases photoelectric absorption",
       "Higher kVp prevents x-ray photons from reaching the image receptor",
       "Higher kVp reduces the number of gray shades visible on the image",
     ],
     answer: 0,
     explanation:
-      "With high kVp, more uniform penetration occurs between thick and thin parts, and the percentage of Compton interactions increases, creating more scatter radiation (fog) and decreasing contrast.",
+      "As kVp increases, the percentage of Compton interactions increases. As a result of this increase in scatter reaching the film, contrast is decreased[cite: 1].",
   },
   {
     id: "6.1.10",
@@ -142,49 +142,49 @@ const questionsData = [
       "Why is a high kVp technique preferred for routine Chest Radiography?",
     options: [
       "To produce only black and white densities with no intermediate gray shades",
-      "To produce a wide range of visible densities that visualize air-filled lungs, soft tissues, and bony structures simultaneously",
+      "To result in a wide range of radiographic densities within the visible range, visualizing air-filled lungs, soft-tissues, and bony structures simultaneously",
       "To maximize photoelectric absorption in the ribs and obscure pulmonary vessels",
       "To increase patient radiation dose for better bone detail",
     ],
     answer: 1,
     explanation:
-      "High kVp in chest examinations results in a wide range of radiographic densities (long scale) so air-filled lungs, soft-tissues, and bony structures (with pulmonary vessels visible behind ribs) are all visualized.",
+      "High kVp results in a wide range of radiographic densities that fall within the visible range, successfully visualizing air-filled lungs, soft-tissues, and bony structures without underexposure or overexposure[cite: 1].",
   },
   {
     id: "6.1.11",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "Why is a LOW kVp technique used in Rib Examinations (Thoracic Bone Cage / TBC) compared to a standard chest x-ray?",
+      "Why is a LOW kVp technique used in Rib Examinations (TBC) compared to standard chest radiography?",
     options: [
       "To decrease contrast between the ribs and the lungs",
-      "To enhance the differences (high contrast) between the air-filled lungs and the overlying bony structures",
+      "Low kVp is used to enhance the differences between the air-filled lungs and the overlying bony structures",
       "To increase the scale of contrast so the ribs blend into the lung fields",
       "To increase Compton scatter reaching the image receptor",
     ],
     answer: 1,
     explanation:
-      "Low kVp is used in rib examinations to enhance the contrast differences between the air-filled lungs and the overlying bony structures.",
+      "Low kVps are used to enhance the differences between the air-filled lungs and the overlying bony structures during rib examinations[cite: 1].",
   },
   {
     id: "6.1.12",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "How does the atomic number of an irradiated material influence radiographic contrast?",
+      "How does body part thickness and atomic number affect subject contrast?",
     options: [
-      "Materials with lower atomic numbers (like hydrogen and carbon) absorb a greater percentage of the beam",
-      "The greater the atomic number (like lead and iodine), the higher the x-ray absorption and the higher the contrast",
-      "Atomic number has no effect on x-ray attenuation or contrast",
-      "Higher atomic number materials decrease subject contrast",
+      "Materials like lead and iodine absorb a greater percentage of the x-ray beam; the greater the atomic number, the higher the contrast",
+      "Low atomic number materials like hydrogen and carbon absorb more radiation than lead",
+      "Increasing part thickness decreases scatter and increases contrast",
+      "Thickness and atomic number have no effect on attenuation",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "High atomic number materials like lead and iodine absorb a much greater percentage of the x-ray beam than low atomic number materials (hydrogen, carbon). The greater the atomic number, the higher the contrast.",
+      "Lead and iodine absorb a greater percentage of x-ray beams than low atomic number materials like hydrogen and carbon. The greater the atomic number, the higher the contrast[cite: 1].",
   },
   {
     id: "6.1.13",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "What term defines the number of useful visible densities or shades of gray on a radiograph?",
+      "What term defines the number of useful visible densities or shades of gray?",
     options: [
       "Exposure Latitude",
       "Scale of Contrast",
@@ -193,82 +193,95 @@ const questionsData = [
     ],
     answer: 1,
     explanation:
-      "Scale of Contrast is the number of useful visible densities or shades of gray on a radiographic image.",
+      "Scale of Contrast is defined as the number of useful visible densities or shades of gray[cite: 1].",
   },
   {
     id: "6.1.14",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "Which set of characteristics accurately describes HIGH contrast?",
+      "What is the relationship between contrast and scale of contrast?",
     options: [
-      "Many shades of gray, high kVp, long-scale, wide latitude",
-      "Few shades of gray, low kVp, short-scale, great differences between adjacent densities",
-      "Minimal differences between adjacent densities and long-scale latitude",
-      "High Compton scatter and many subtle gray tones",
+      "High contrast corresponds to short-scale (fewer shades of gray); Low contrast corresponds to long-scale (many shades of gray)",
+      "High contrast corresponds to long-scale; Low contrast corresponds to short-scale",
+      "High contrast has no scale",
+      "Short-scale has many shades of gray",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "High contrast is characterized by great differences between adjacent densities, resulting in fewer shades of gray, short-scale (narrow exposure latitude), and is produced using low kVp.",
+      "High contrast features few shades of gray and short-scale latitude, whereas low contrast features many shades of gray and long-scale latitude[cite: 1].",
   },
   {
     id: "6.1.15",
     domain: "Lesson 6: Radiographic Contrast",
-    question:
-      "Why does a LOW contrast (long-scale) radiograph generally provide more diagnostic information?",
+    question: "Why does low contrast provide more diagnostic information?",
     options: [
-      "Because it contains only pure black and pure white areas",
-      "Because more densities (shades of gray) are present within the visible range, forming more contrast differences",
-      "Because it uses a very low kVp that absorbs all photons in soft tissue",
-      "Because it eliminates all intermediate shades of gray",
+      "Because it contains only pure black and white",
+      "Because it provides more densities even though the difference between densities is less, as long as differences remain within the visible range",
+      "Because it eliminates exposure latitude",
+      "Because it relies entirely on chemical fog",
     ],
     answer: 1,
     explanation:
-      "Low contrast (long-scale) provides more diagnostic information because more visible densities (shades of gray) are present on the image.",
+      "Low contrast provides more densities even though the difference between densities is less, presenting more diagnostic information because more densities are present[cite: 1].",
   },
   {
     id: "6.1.16",
     domain: "Lesson 6: Radiographic Contrast",
-    question:
-      "Compare the inherent subject contrast of the Chest versus the Abdomen:",
+    question: "How do radiographic grids affect contrast?",
     options: [
-      "The chest has low subject contrast, whereas the abdomen has high subject contrast",
-      "The chest has HIGH subject contrast (great variation in tissue composition), whereas the abdomen has LOW subject contrast (similar tissue types)",
-      "Both the chest and abdomen have high subject contrast",
-      "Both the chest and abdomen have low subject contrast",
+      "Grids affect contrast as a result of their absorption of scatter radiation that exits the patient, reducing film fog",
+      "Grids increase scatter radiation and decrease contrast",
+      "Grids have no effect on scatter or contrast",
+      "Grids increase exposure latitude by producing long-scale contrast",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "The chest is an area of high subject contrast due to wide tissue variations (air, soft tissue, bone), while the abdomen has low subject contrast because it consists of similar soft-tissue densities.",
+      "Radiographic grids affect contrast as a result of their absorption of the scatter radiation that exits the patient; the lesser the scattered radiation, the lesser the unwanted density (film fog)[cite: 1].",
   },
   {
     id: "6.1.17",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "How does creating an 'air gap' (increasing the Object-to-Image Receptor Distance / OID) affect radiographic contrast?",
+      "How does field size (collimation) influence radiographic contrast?",
     options: [
-      "It increases scatter striking the receptor and lowers contrast",
-      "It prevents scatter radiation from striking the image receptor, which increases radiographic contrast",
-      "It decreases radiographic contrast by hardening the primary beam",
-      "It has no effect on scatter radiation or contrast",
+      "A wide field irradiates more tissue, creating more scatter radiation which decreases contrast; a small field size decreases scatter and increases contrast",
+      "A small field size increases scatter radiation",
+      "Field size has no impact on scatter or contrast",
+      "Collimation increases exposure latitude",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "When sufficient distance exists between the object and the image receptor, an air gap is created that allows diverging scatter radiation to miss the receptor, thereby increasing radiographic contrast.",
+      "A wide field will irradiate more tissue and cause more scatter radiation. Small field size (more collimation) decreases scatter radiation reaching the film, resulting in greater radiographic contrast[cite: 1].",
   },
   {
     id: "6.1.18",
     domain: "Lesson 6: Radiographic Contrast",
     question:
-      "Which of the following correctly distinguishes POSITIVE contrast media from NEGATIVE contrast media?",
+      "What is the primary purpose of adding filtration to an x-ray beam in relation to contrast and energy?",
     options: [
-      "Positive contrast media (Air, CO2) decrease attenuation; Negative contrast media (Barium, Iodine) increase attenuation",
-      "Positive contrast media (Barium, Iodine) absorb more x-rays and increase attenuation; Negative contrast media (Air, CO2) let x-rays pass easily and decrease attenuation",
-      "Both positive and negative contrast media require a decrease in exposure factors",
-      "Negative contrast media have a higher atomic number than positive contrast media",
+      "To selectively remove low-energy x-rays that have little chance of reaching the image receptor",
+      "To increase low-energy photon scatter",
+      "To eliminate high-energy x-rays",
+      "To double image receptor speed",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Positive contrast media (Barium and Iodine) absorb more x-rays, increasing attenuation and requiring an INCREASE in exposure factors. Negative contrast media (Air and Carbon Dioxide) decrease attenuation.",
+      "The primary purpose of adding filtration to an x-ray beam is to remove selectively low-energy x-rays that have little chance of getting to the image receptor[cite: 1].",
+  },
+  {
+    id: "6.1.19",
+    domain: "Lesson 6: Radiographic Contrast",
+    question:
+      "How do positive versus negative contrast media impact exposure factors?",
+    options: [
+      "Positive contrast media require an INCREASE in exposure factors; negative contrast media do not require a change in exposure factors",
+      "Positive contrast media require a decrease in exposure factors",
+      "Negative contrast media require an increase in exposure factors",
+      "Neither contrast media type affects exposure factors",
+    ],
+    answer: 0,
+    explanation:
+      "Positive contrast media studies require an increase in exposure factors compared to imaging without them, whereas negative contrast agents decrease attenuation and do not require a change in exposure factors[cite: 1].",
   },
 
   // =========================================================================
@@ -278,225 +291,140 @@ const questionsData = [
     id: "7.1.1",
     domain: "Lesson 7: Radiographic Definition & Distortion",
     question:
-      "What term refers to the clarity and sharpness of a radiographic image that outlines objects extremely well and shows minimum magnification and distortion?",
+      "What term refers to the clarity and sharpness of the radiographic image, outlining objects extremely well with minimum magnification and distortion?",
     options: [
-      "Exposure Latitude",
-      "Maximum Definition (Radiographic Definition)",
+      "Maximum Definition",
       "Quantum Mottle",
-      "Anode Heel Effect",
+      "Subject Contrast",
+      "Exposure Latitude",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Maximum definition (radiographic definition) refers to the clarity and sharpness of the radiographic image, outlining objects extremely well with minimum magnification and distortion.",
+      "Maximum definition refers to the clarity and sharpness of the radiographic image, outlining objects extremely well, showing minimum magnification and distortion, and enhancing visibility of anatomic markings[cite: 2].",
   },
   {
     id: "7.1.2",
     domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "In radiographic geometry, what is the difference between the 'Umbra' and the 'Penumbra'?",
+    question: "What is the difference between Umbra and Penumbra?",
     options: [
-      "Umbra is the blurred outer edge; Penumbra is the true object shadow",
-      "Umbra is the true object (complete shadow) recorded on the film; Penumbra is the thin blurred area (edge gradient/geometric unsharpness) around the umbra",
-      "Umbra is caused by motion; Penumbra is caused by chemical fog",
-      "Umbra only occurs with large focal spots; Penumbra only occurs with point sources",
+      "Umbra is the true object recorded on the film; Penumbra is the thin blurred area around the umbra that limits radiographic definition",
+      "Umbra is the blurred outer edge; Penumbra is the complete shadow",
+      "Umbra is caused by motion; Penumbra is caused by developer temperature",
+      "Umbra and penumbra are identical terms",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "The umbra is the true object (complete shadow) recorded on the film, while the penumbra is the thin blurred area around the umbra (also called edge gradient or geometric unsharpness) that limits definition.",
+      "Umbra is the true object recorded on the film, while penumbra is the thin blurred area around the umbra (edge gradient or geometric unsharpness) that limits definition[cite: 2].",
   },
   {
     id: "7.1.3",
     domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "Why is penumbra (geometric unsharpness) always present to some degree on a clinical radiograph?",
+    question: "Why does geometric unsharpness occur on radiographs?",
     options: [
-      "Because patients always move during an exposure",
-      "Because x-ray photons do not originate from a true point source, but rather from a focal 'area' on the target (actual focal spot), and anatomy cannot be placed directly at zero OID",
-      "Because all radiographs use compensating filters",
-      "Because developer temperature is always fluctuating",
+      "Because radiation does not originate from a point source but rather a focal area on the target called the actual focal spot",
+      "Because intensifying screens have zero phosphor layer",
+      "Because patient motion is always completely absent",
+      "Because SID is infinite",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Penumbra occurs because radiation originates from an area on the target (actual focal spot) rather than a single point source, and anatomical parts inside the body have some OID.",
+      "Geometric factors affecting detail are defined in terms of umbra and penumbra because radiation does not originate from a point source but rather a focal area on the target called the actual focal spot[cite: 2].",
   },
   {
     id: "7.1.4",
     domain: "Lesson 7: Radiographic Definition & Distortion",
     question:
-      "Which combination of geometric factors produces the BEST recorded detail (minimum penumbra/unsharpness)?",
+      "How does Object-to-Image Receptor Distance (OID / OFD) affect image sharpness?",
     options: [
-      "Large focal spot, Short SID (FFD), Long OID (OFD)",
-      "Small focal spot, Long SID (FFD), Short OID (OFD)",
-      "Large focal spot, Long SID (FFD), Long OID (OFD)",
-      "Small focal spot, Short SID (FFD), Long OID (OFD)",
+      "The closer the object to the image receptor, the sharper the image (less unsharpness)",
+      "The farther the object from the image receptor, the sharper the image",
+      "OID has no effect on image sharpness or penumbra",
+      "Increasing OID eliminates geometric unsharpness",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Recorded detail is maximized (and penumbra minimized) by using a small focal spot size, a longer Source-to-Image Receptor Distance (SID/FFD), and a shorter Object-to-Image Receptor Distance (OID/OFD).",
+      "OID stands for Object to Image Receptor Distance; the closer the object to the image receptor, the sharper the image[cite: 2].",
   },
   {
     id: "7.1.5",
     domain: "Lesson 7: Radiographic Definition & Distortion",
     question:
-      "How does the width of the primary x-ray beam affect geometric unsharpness?",
+      "What is the relationship between Source-to-Image Receptor Distance (SID / FFD) and image sharpness?",
     options: [
-      "A wide-angle primary beam reduces unsharpness compared to a narrow-angle beam",
-      "A wide-angle primary beam increases unsharpness (penumbra), whereas a narrow-angle beam reduces unsharpness",
-      "Beam width has no effect on penumbra",
-      "Narrow beams eliminate the umbra",
+      "The longer the SID, the sharper the image",
+      "The shorter the SID, the sharper the image",
+      "SID has no effect on recorded detail",
+      "Longer SID increases penumbra magnification",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "A wide-angle primary beam results in more unsharpness (penumbra) than a narrow-angle primary beam.",
+      "SID stands for Source to Image Receptor Distance; the longer the SID, the sharper the image[cite: 2].",
   },
   {
     id: "7.1.6",
     domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "Why does a circular or rounded anatomical object demonstrate greater 'absorption unsharpness' than a flat-sided square object?",
+    question: "What causes 'Quantum Mottle' (noise) in a recording system?",
     options: [
-      "Because circular objects reflect x-rays backward toward the tube",
-      "Because the varying thicknesses toward the curved edge cause gradual photon absorption changes, making the edges blend with the background",
-      "Because circular objects cannot be radiographed with a grid",
-      "Because circular objects increase the focal spot size",
+      "Variations in photon absorption due to different x-ray energies, appearing as a 'snowy' effect especially with high-speed systems, high kVp, and low mAs",
+      "Uneven silver grain distribution in slow film emulsions",
+      "Excessive exposure time during involuntary motion",
+      "Thick aluminum filtration at the tube port",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Absorption unsharpness occurs due to varying photon absorption across different thicknesses of an object's shape. A circular object has gradually tapering edges that blend with the background.",
+      "Quantum mottle is caused by variations in photon absorption due to different x-ray energies, appearing as a 'snowy' effect more apparent with high-speed screens, high kVp, and low mAs exposures[cite: 2].",
   },
   {
     id: "7.1.7",
     domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "Where is involuntary motion most commonly encountered, and what is the primary technical method to control it?",
+    question: "How does image resolution get measured in a screen-film system?",
     options: [
-      "Encountered in extremity exams; controlled by using a long exposure time and low mA",
-      "Encountered in the GI tract, cardiovascular system, and unconscious patients; controlled by using the shortest possible exposure time",
-      "Encountered only in adult chest exams; controlled by decreasing kVp",
-      "Encountered in bone radiography; controlled by increasing OID",
+      "Measured in line pairs per millimeter (line pairs/mm) using a leaded bar-test pattern",
+      "Measured in Half Value Layers using aluminum sheets",
+      "Measured in optical density units using a penetrometer",
+      "Measured in milliampere-seconds",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Involuntary motion is common in the gastrointestinal tract, cardiovascular system, and unconscious patients. Using the shortest possible exposure time (along with immobilization tools when applicable) is the best way to minimize motion artifacts.",
+      "Image resolution is evaluated using a leaded bar-test pattern and measured in line pairs per millimeter (line pairs/mm)[cite: 2].",
   },
   {
     id: "7.1.8",
     domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "What causes 'Quantum Mottle' (noise), and under what exposure conditions is it most apparent?",
+    question: "What is radiographic distortion?",
     options: [
-      "Uneven silver crystals in the film base; most apparent with slow screens and high mAs",
-      "Statistical variations in photon absorption; appears as a 'snowy' effect and is most apparent with high-speed screens, high kVp, and low mAs exposures",
-      "Chemical stains from dirty processor rollers; most apparent at low developer temperatures",
-      "Misalignment of the x-ray tube and Bucky tray; most apparent at long SID",
+      "The misrepresentation of the size, shape, or position of anatomical structures in an image",
+      "The overall chemical fog on a developed film",
+      "The reduction of scatter radiation using a grid",
+      "The increase of subject contrast via contrast media",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Quantum mottle is a 'snowy' noise caused by variations in photon absorption when too few photons are used, occurring primarily with high-speed screens, high kVp, and low mAs settings.",
+      "Distortion refers to the misrepresentation of the size, shape, or position of anatomical structures in an image, split into size distortion (magnification) and shape distortion[cite: 2].",
   },
   {
     id: "7.1.9",
     domain: "Lesson 7: Radiographic Definition & Distortion",
     question:
-      "How does the thickness of an intensifying screen's phosphor layer affect screen speed and recorded detail?",
-    options: [
-      "Thicker phosphor layers decrease speed and increase recorded detail",
-      "Thicker phosphor layers increase speed (absorbing more photons) but cause greater light diffusion, which increases unsharpness",
-      "Thicker phosphor layers eliminate light diffusion completely",
-      "Phosphor layer thickness has no impact on light diffusion",
-    ],
-    answer: 1,
-    explanation:
-      "Thicker phosphor layers increase system speed by absorbing more photons (reducing patient dose), but they lead to greater light diffusion, which degrades recorded detail.",
+      "Using the Magnification Factor formula M = FFD / (FFD - OFD), what is the magnification factor if FFD = 40 inches and OFD = 4 inches?",
+    options: ["1.1", "1.5", "2.0", "1.0"],
+    answer: 0,
+    explanation: "M = 40 / (40 - 4) = 40 / 36 = 1.1[cite: 2].",
   },
   {
     id: "7.1.10",
     domain: "Lesson 7: Radiographic Definition & Distortion",
     question:
-      "Why are Rare Earth phosphor screens preferred for high-quality imaging?",
+      "What are the two specific forms of Shape Distortion (True Distortion)?",
     options: [
-      "They require much thicker phosphor layers and higher mAs",
-      "They are more efficient, allowing for thinner phosphor layers that produce minimal light diffusion and improve sharpness",
-      "They completely eliminate the need for film processing",
-      "They increase quantum mottle to sharpen bone edges",
-    ],
-    answer: 1,
-    explanation:
-      "Rare earth phosphors are more efficient at absorbing x-rays and converting them to light, allowing for thinner layers that minimize light diffusion and yield higher recorded detail.",
-  },
-  {
-    id: "7.1.11",
-    domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "How is the image resolution (resolving power) of a screen-film system measured?",
-    options: [
-      "In Half Value Layers (mm Al) using an ionization chamber",
-      "In line pairs per millimeter (line pairs/mm) using a leaded bar-test pattern",
-      "In milliampere-seconds (mAs) using a step-wedge penetrometer",
-      "In optical density units using a densitometer",
-    ],
-    answer: 1,
-    explanation:
-      "Image resolution is evaluated using a leaded bar-test pattern (where 1 line pair = 1 lead bar + 1 interspace) and is measured in line pairs per millimeter (line pairs/mm). High-quality systems typically demonstrate 8–10 line pairs/mm.",
-  },
-  {
-    id: "7.1.12",
-    domain: "Lesson 7: Radiographic Definition & Distortion",
-    question: "What are the two primary categories of radiographic distortion?",
-    options: [
-      "Size distortion (magnification) and Shape distortion (elongation and foreshortening)",
-      "Umbra distortion and Penumbra distortion",
-      "Contrast distortion and Density distortion",
-      "Inherent distortion and Added distortion",
+      "Foreshortening and Elongation",
+      "Umbra and Penumbra",
+      "High contrast and Low contrast",
+      "Inherent and Added",
     ],
     answer: 0,
     explanation:
-      "The two primary types of distortion in radiology are size distortion (magnification) and shape distortion (true distortion: elongation and foreshortening).",
-  },
-  {
-    id: "7.1.13",
-    domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "Using the Magnification Factor formula M = FFD / (FFD - OFD), what is the magnification factor and resulting image size for a 2.5 cm object located at a 4-inch OFD with a 40-inch FFD?",
-    options: [
-      "M = 1.0; Image size = 2.5 cm",
-      "M = 1.1; Image size = 2.75 cm (or 2.8 cm)",
-      "M = 1.5; Image size = 3.75 cm",
-      "M = 2.0; Image size = 5.0 cm",
-    ],
-    answer: 1,
-    explanation:
-      "M = 40 / (40 - 4) = 40 / 36 = 1.1. Image Size = Actual Size × M = 2.5 cm × 1.1 = 2.75 cm (rounded to 2.8 cm).",
-  },
-  {
-    id: "7.1.14",
-    domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "In shape distortion (true distortion), what is the difference between 'Foreshortening' and 'Elongation'?",
-    options: [
-      "Foreshortening makes the object appear longer; Elongation makes the object appear shorter",
-      "Foreshortening makes the object appear shorter due to improper part-to-film alignment; Elongation makes the object appear longer due to misalignment",
-      "Foreshortening is caused by OID; Elongation is caused by SID",
-      "Both foreshortening and elongation represent uniform magnification without shape change",
-    ],
-    answer: 1,
-    explanation:
-      "Shape distortion results from improper alignment of the tube, part, and film: foreshortening makes the object appear shorter than its true size, whereas elongation makes it appear longer.",
-  },
-  {
-    id: "7.1.15",
-    domain: "Lesson 7: Radiographic Definition & Distortion",
-    question:
-      "According to Table 11-4 (Radiographic Quality), what are the primary CONTROLLING factors for Density, Contrast, Definition, and Distortion respectively?",
-    options: [
-      "Density: kVp | Contrast: mAs | Definition: Alignment | Distortion: Screens",
-      "Density: mAs | Contrast: kVp | Definition: Focal spot size, OFD, Screens, Motion | Distortion: Alignment of Part, Film, and Tube",
-      "Density: SID | Contrast: Grids | Definition: kVp | Distortion: mAs",
-      "Density: Filtration | Contrast: Processing | Definition: Collimation | Distortion: Focal spot",
-    ],
-    answer: 1,
-    explanation:
-      "Table 11-4 lists the controlling factors as: Density = mAs; Contrast = kVp; Definition = Focal spot size, Object-film distance, Screens, Motion; Distortion = Alignment of Part, Film, and Tube.",
+      "The two forms of shape distortion are foreshortening (object appears shorter due to incorrect alignment) and elongation (object appears longer due to misalignment)[cite: 2].",
   },
 
   // =========================================================================
@@ -506,172 +434,155 @@ const questionsData = [
     id: "8.1.1",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "What is the primary purpose of filtration (also called 'hardening the beam') in diagnostic radiography?",
+      "What is the definition of filtration as applied to diagnostic x-ray beams?",
     options: [
-      "To remove high-energy penetrating photons so contrast is increased",
-      "To selectively eliminate undesirable low-energy ('soft') x-ray photons that would be absorbed by the patient and have little chance of reaching the image receptor",
-      "To increase the total number (quantity) of photons in the primary beam",
-      "To absorb scatter radiation exiting the patient before it hits the film",
+      "The process of eliminating undesirable low-energy x-ray photons by inserting absorbing materials into the primary beam ('hardening the beam')",
+      "The removal of high-energy photons to increase patient dose",
+      "The absorption of exit radiation by a grid",
+      "The restriction of field size via lead shutters",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Filtration selectively removes low-energy (long-wavelength, 'soft') x-ray photons from the primary beam by inserting absorbing materials, reducing patient radiation dose.",
+      "Filtration is the process of eliminating undesirable low-energy x-ray photons by insertion of absorbing materials into the primary beam, also called hardening the beam[cite: 3].",
   },
   {
     id: "8.1.2",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "As x-ray beam filtration is increased, what happens to the x-ray beam's QUALITY and QUANTITY?",
+      "What happens to beam quality and patient exposure when filtration is added?",
     options: [
-      "Beam quality increases (higher average energy) and beam quantity decreases (fewer total photons)",
-      "Beam quality decreases and beam quantity increases",
-      "Both beam quality and beam quantity increase",
-      "Both beam quality and beam quantity decrease",
+      "Beam quality increases and patient exposure dose is reduced",
+      "Beam quality decreases and patient exposure dose increases",
+      "Beam quality and quantity both increase equally",
+      "Filtration has no effect on patient dose",
     ],
     answer: 0,
     explanation:
-      "Increasing filtration removes low-energy photons, which increases the average energy (quality) of the beam while decreasing the total number of photons (quantity).",
+      "The removal of low-energy x-rays with aluminum or another metal results in increased beam quality (higher average energy) and reduced patient dose[cite: 3].",
   },
   {
     id: "8.1.3",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "Why is Aluminum (Z = 13) the most widely used material for diagnostic x-ray filters?",
+      "What are the two main components of total filtration in diagnostic x-ray equipment?",
     options: [
-      "It has the highest atomic number of all metals",
-      "It is efficient in removing low-energy x-rays, readily available, inexpensive, and easily shaped",
-      "It increases the quantity of soft x-rays in the primary beam",
-      "It is liquid at room temperature and cools the x-ray tube",
+      "Inherent filtration and Added filtration",
+      "Wedge filtration and Trough filtration",
+      "Primary filtration and Scatter filtration",
+      "Aluminum filtration and Copper filtration",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Aluminum (Z = 13) is the standard filter material because it efficiently removes low-energy photons, is readily available, inexpensive, and easily shaped. Other filter materials include Copper (Z=29), Tin (Z=50), Gadolinium (Z=64), and Holmium (Z=67).",
+      "Filtration of diagnostic x-ray beams has two components: Inherent filtration and Added filtration[cite: 3].",
   },
   {
     id: "8.1.4",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "What is 'Inherent Filtration' in a general-purpose x-ray tube, and what is its typical value?",
+      "What is Inherent Filtration primarily a result of, and what is its standard value for a general-purpose tube?",
     options: [
-      "Filtration from aluminum sheets outside the port; typically 2.0 mm Al equivalent",
-      "Filtration resulting from the composition of the tube and housing (mainly the glass envelope window); approximately 0.5 mm Al equivalent",
-      "Filtration from wedge filters attached to the collimator; typically 3.5 mm Al equivalent",
-      "Filtration from the patient's soft tissue; typically 5.0 mm Al equivalent",
+      "Composition of the tube and housing (mainly the glass window); approximately 0.5 mm Al equivalent",
+      "External aluminum sheets; exactly 2.5 mm Al equivalent",
+      "Collimator mirror assembly; exactly 1.0 mm Al equivalent",
+      "Patient skin attenuation; 3.0 mm Al equivalent",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Inherent filtration results from the tube and housing (mostly the window of the glass envelope) and equals approximately 0.5 mm Al equivalent in a general-purpose tube.",
+      "Inherent filtration is a result of the composition of the tube and housing, with most coming from the glass envelope window, approximating 0.5 mm Al equivalent[cite: 3].",
   },
   {
     id: "8.1.5",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
-    question:
-      "How does the age of an x-ray tube affect its inherent filtration?",
+    question: "What is Added Filtration, and where is it positioned?",
     options: [
-      "Inherent filtration decreases as the glass window thins over time",
-      "Inherent filtration tends to increase with age because vaporized tungsten from the target and filament is deposited on the inside of the window",
-      "Age has zero effect on inherent filtration",
-      "Inherent filtration converts into compensating filtration over time",
+      "Any filtration occurring outside the tube and housing and before the image receptor (such as thin aluminum sheets between the housing and collimator)",
+      "Filtration inside the glass envelope window only",
+      "Filtration provided exclusively by patient tissue",
+      "Filtration inside the Bucky tray grid",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "With age, inherent filtration increases because tungsten metal from both the target and filament vaporizes and deposits on the inside surface of the tube window.",
+      "Any filtration that occurs outside the tube and housing and before the image receptor is considered added, such as a thin sheet of aluminum positioned between the tube housing and collimator[cite: 3].",
   },
   {
     id: "8.1.6",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "What are the two main sources of 'Added Filtration' in a standard diagnostic x-ray tube assembly, and what is the minimum required TOTAL filtration above 70 kVp?",
+      "What is the minimum total filtration requirement for equipment operated above 70 kVp?",
     options: [
-      "0.5 mm Al inherent + 0.5 mm Al collimator = 1.0 mm Al total",
-      "1.0 mm Al sheets at the port + 1.0 mm Al equivalent from the collimator mirror (plus 0.5 mm Al inherent) = 2.5 mm Al minimum total filtration",
-      "2.5 mm Al inherent + 2.5 mm Al added = 5.0 mm Al total",
-      "Compensating wedge filter + Bucky grid = 2.5 mm Al total",
+      "At least 2.5 mm Al equivalent",
+      "At least 0.5 mm Al equivalent",
+      "At least 5.0 mm Al equivalent",
+      "Exactly 1.0 mm Al equivalent",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "Total filtration equals Inherent filtration (0.5 mm Al) + Added filtration (1.0 mm Al sheets + 1.0 mm Al collimator mirror) = 2.5 mm Al minimum total filtration for equipment operated at 70 kVp and above.",
+      "For equipment operated at 70 kVp and above, the minimum total filtration should be at least 2.5 mm Al[cite: 3].",
   },
   {
     id: "8.1.7",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "What is the 'Half Value Layer' (HVL), and what is its typical range for a diagnostic x-ray beam?",
+      "What does a Half Value Layer (HVL) of less than 2.5 mm Al indicate?",
     options: [
-      "The thickness of tissue needed to double the x-ray intensity; typically 10–12 mm Al",
-      "The amount of absorbing material that reduces the intensity of the primary beam to one-half (50%) its original value; typically 3 to 5 mm Al (or 3 to 6 cm of soft tissue)",
-      "The time required for half of the x-ray photons to decay; typically 2.5 seconds",
-      "The thickness of the intensifying screen phosphor layer; typically 150–300 mm",
+      "Insufficient filtration",
+      "Excessive filtration",
+      "Optimal beam quality",
+      "Zero scatter radiation",
     ],
-    answer: 1,
+    answer: 0,
     explanation:
-      "HVL is the amount of absorbing material that reduces the primary beam intensity to 50% of its original value. It is the best method for specifying x-ray quality and usually ranges from 3 to 5 mm Al (with a minimum of 2.5 mm Al at ≥70 kVp).",
+      "An HVL less than 2.5 mm indicates insufficient filtration; if HVL is at the appropriate level, total filtration is adequate to protect patients from unnecessary low energy radiation[cite: 3].",
   },
   {
     id: "8.1.8",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
-    question:
-      "What is the purpose of a 'Compensating Filter', and how should technical factors be adjusted when using one?",
+    question: "What are the primary factors affecting scatter radiation?",
     options: [
-      "To compensate for unequal subject thicknesses/densities (thick part of filter placed over less dense body part); requires an INCREASE in mAs to maintain overall density",
-      "To match the thick part of the filter to the thickest body part; requires a DECREASE in mAs",
-      "To replace the radiographic grid during abdominal exams; requires no change in mAs",
-      "To increase scatter radiation in thin body parts",
+      "Kilovoltage (kVp), Part Thickness, and Tissue Density (Field size is also a major factor)",
+      "SID, OID, and Focal spot size",
+      "Developer temperature and replenishment rate",
+      "Screen speed and film graininess",
     ],
     answer: 0,
     explanation:
-      "Compensating filters produce more uniform radiographic density across anatomical parts with unequal thickness/density by placing the thicker filter portion over the less dense body part. Their use requires an increase in mAs.",
+      "Factors affecting scatter radiation include Kilovoltage, Part Thickness, Tissue Density, and Field Size[cite: 3].",
   },
   {
     id: "8.1.9",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "Which compensating filter is correctly matched with its clinical application?",
+      "How does increasing Kilovoltage (kVp) affect scatter radiation production?",
     options: [
-      "Trough (Bilateral Wedge) Filter: Positioned with thin center over the mediastinum and thick lateral portions over the lungs in chest exams",
-      "Bow-Tie Filter: Placed directly under the patient's shoulder in conventional radiography",
-      "Boomerang Filter: Used exclusively inside Computed Tomography (CT) gantries",
-      "Conic Filter: Used only for AP Foot and AP Femur radiographs",
+      "Increasing kVp increases Compton interactions, which increases the amount of scatter radiation",
+      "Increasing kVp decreases Compton interactions and eliminates scatter",
+      "Increasing kVp has no impact on scatter",
+      "Increasing kVp increases photoelectric absorption exclusively",
     ],
     answer: 0,
     explanation:
-      "Trough (bilateral wedge) filters have a thin central region over the mediastinum and thick lateral wedges over the lungs. Wedge filters are used for AP Foot/AP Femur; Boomerang filters go under the patient's shoulder; Bow-tie filters are used in CT; Conic filters are used in digital fluoroscopy; Step-wedge filters are used in serial angiography of the abdomen/lower limbs.",
+      "As kVp increases, a greater proportion of Compton scattering occurs compared to photoelectric absorption, increasing the amount of scatter radiation[cite: 1, 3].",
   },
   {
     id: "8.1.10",
     domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
     question:
-      "What is 'Backscatter Radiation', and how does Leaded Rubber Masking help control it?",
+      "What is the purpose of Compensating Filters, and how do they affect mAs?",
     options: [
-      "Radiation leaking from the tube housing; controlled by increasing kVp",
-      "Radiation created when the primary beam strikes the table-top or structures behind the patient; leaded rubber masking absorbs unused primary beam photons so less scatter reaches the patient and image receptor",
-      "Radiation reflected off the ceiling; controlled by removing the collimator",
-      "Radiation absorbed by the intensifying screen; controlled by prone positioning",
-    ],
-    answer: 1,
-    explanation:
-      "Backscatter occurs when the primary beam strikes the table-top and scatters back toward the patient and image receptor. Leaded rubber masking absorbs primary photons that miss the patient, reducing backscatter and improving contrast.",
-  },
-  {
-    id: "8.1.11",
-    domain: "Lesson 8: Scatter Radiation, Filtration, and Patient Exposure",
-    question:
-      "Which two practical techniques are specifically recommended to reduce part thickness (and thus reduce scatter radiation) when radiographing thick anatomical regions like the abdomen?",
-    options: [
-      "Using compression bands and positioning the patient prone",
-      "Increasing the field size and using a supine position",
-      "Removing the grid and increasing kVp",
-      "Decreasing SID and removing added filtration",
+      "Designed to solve problems involving unequal subject densities/thicknesses by adding an absorber; requires an increase in mAs",
+      "Designed to remove all primary radiation; requires a decrease in mAs",
+      "Designed to increase image quantum mottle; requires no change in mAs",
+      "Designed to replace collimators during fluoroscopy",
     ],
     answer: 0,
     explanation:
-      "Thicker body parts produce more scatter radiation. Using compression bands and positioning the patient prone (for abdominal radiographs) decreases tissue thickness, reducing scatter and improving image contrast and detail.",
+      "Compensating filters are designed to solve problems involving unequal subject densities by adding an absorber to make overall absorption more equal, requiring an increase in mAs[cite: 3].",
   },
 ];
 
 // App State
-let userAnswers = {}; // { questionId: selectedOptionIndex }
-let manualReveals = {}; // { questionId: boolean }
+let userAnswers = {};
+let manualReveals = {};
 let revealAllActive = false;
 
 // DOM Elements
@@ -687,7 +598,6 @@ const showingVal = document.getElementById("showing-val");
 
 const optionLetters = ["A", "B", "C", "D"];
 
-// Initialize Hover Peek Body Class
 function syncHoverClass() {
   if (hoverPeekCheckbox.checked) {
     document.body.classList.add("hover-peek-enabled");
@@ -696,7 +606,6 @@ function syncHoverClass() {
   }
 }
 
-// Update Score Pill
 function updateScoreStats(filteredCount) {
   let correctCount = 0;
   const answeredIds = Object.keys(userAnswers);
@@ -713,7 +622,6 @@ function updateScoreStats(filteredCount) {
   showingVal.textContent = filteredCount;
 }
 
-// Render Quiz Questions
 function renderQuiz() {
   const query = searchInput.value.trim().toLowerCase();
   const selectedDomain = domainSelect.value;
@@ -743,7 +651,6 @@ function renderQuiz() {
     return;
   }
 
-  // Group by Domain
   const grouped = {};
   filteredQuestions.forEach((q) => {
     if (!grouped[q.domain]) {
@@ -769,7 +676,6 @@ function renderQuiz() {
       const userChoice = userAnswers[q.id];
       const isRevealed = revealAllActive || manualReveals[q.id] || hasAnswered;
 
-      // Options HTML
       const optionsHtml = q.options
         .map((optText, idx) => {
           let stateClass = "";
@@ -819,7 +725,6 @@ function renderQuiz() {
   });
 }
 
-// Event Delegation for Option Clicks and Peek Box Clicks
 quizContainer.addEventListener("click", (e) => {
   const optionBtn = e.target.closest(".option-btn");
   if (optionBtn) {
@@ -839,10 +744,31 @@ quizContainer.addEventListener("click", (e) => {
   }
 });
 
-// Controls Event Listeners
 searchInput.addEventListener("input", renderQuiz);
 domainSelect.addEventListener("change", renderQuiz);
 hoverPeekCheckbox.addEventListener("change", syncHoverClass);
+
+// Insert Shuffle Button dynamically into controls row if not already there
+const controlsRow = document.querySelector(".controls-row");
+if (controlsRow && !document.getElementById("shuffle-btn")) {
+  const shuffleBtn = document.createElement("button");
+  shuffleBtn.id = "shuffle-btn";
+  shuffleBtn.className = "ctrl-btn";
+  shuffleBtn.textContent = "🔀 Shuffle";
+  shuffleBtn.title = "Shuffle question order";
+  shuffleBtn.addEventListener("click", () => {
+    // Fisher-Yates shuffle algorithm
+    for (let i = questionsData.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questionsData[i], questionsData[j]] = [
+        questionsData[j],
+        questionsData[i],
+      ];
+    }
+    renderQuiz();
+  });
+  controlsRow.insertBefore(shuffleBtn, revealAllBtn);
+}
 
 revealAllBtn.addEventListener("click", () => {
   revealAllActive = !revealAllActive;
@@ -862,6 +788,5 @@ resetBtn.addEventListener("click", () => {
   renderQuiz();
 });
 
-// Initial Boot
 syncHoverClass();
 renderQuiz();
